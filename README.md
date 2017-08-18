@@ -1,0 +1,1 @@
+* Portfolio Responsive Website - translated a design mockup as a PDF-file into a responsive website using HTML and CSS

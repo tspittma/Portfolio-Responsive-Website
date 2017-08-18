@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #008ae6;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+.container {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.dolp-flip-logo {
+  padding-top: 20px;
+}
+
+.imgmargins {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+hr {
+  height: 5px;
+  background-color: #cc7a00;
+}
+
+.text-name {
+  color: #cc7a00;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.featured-dolphin {
+  color: #cc7a00;
+  font-size: 35px;
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.text-attention {
+  color: #cc7a00;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1115px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .text-name {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .middle {
+    text-align: center;
+  }
+  hr {
+    height: 2px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .text-name {
+    font-size: 35px;
+  }
+  .featured-dolphin {
+    font-size: 40px;
+  }
+}
